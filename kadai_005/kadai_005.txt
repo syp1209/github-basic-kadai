@@ -1,0 +1,33 @@
+Microsoft Windows [Version 10.0.22631.3880]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\1yu2n>cd "C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai"
+
+C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai>mkdir git_challenge
+
+C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai>git init
+Initialized empty Git repository in C:/Users/1yu2n/OneDrive/デスクトップ/SAMURAI/Skadai/.git/
+
+C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai> cd "C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai\git_challenge"
+
+C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai\git_challenge>git init
+Initialized empty Git repository in C:/Users/1yu2n/OneDrive/デスクトップ/SAMURAI/Skadai/git_challenge/.git/
+
+C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai\git_challenge>git add .
+
+C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai\git_challenge>git commit -m "hello_world.txtを追加"
+[main (root-commit) df6f96f] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai\git_challenge>git add .
+
+C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai\git_challenge>git commit -m "日本語訳を追記"
+[main a67d6dd] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+
+C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai\git_challenge>git log --oneline
+a67d6dd (HEAD -> main) 日本語訳を追記
+df6f96f hello_world.txtを追加
+
+C:\Users\1yu2n\OneDrive\デスクトップ\SAMURAI\Skadai\git_challenge>
